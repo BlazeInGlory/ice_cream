@@ -1,0 +1,35 @@
+main {
+  background-color: lightblue;
+  background-image: url(https://images.unsplash.com/photo-1633933358116-a27b902fad35?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGljZSUyMGNyZWFtfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60);
+  background-size: cover;
+  max-width: auto;
+  max-height: 100%;
+  background-repeat: none;
+}
+
+header {
+  background-color: crimson;
+}
+
+.menu {
+  max-width: 25%;
+  height: auto;
+}
+
+.pics {
+  background-color: black;
+  border-radius: 16px;
+  border: 3px solid rgb(88, 8, 236);
+  color: rgb(88, 8, 236);
+}
+
+.cart {
+  min-height: 15%;
+}
+
+img {
+  height: 30vh;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}

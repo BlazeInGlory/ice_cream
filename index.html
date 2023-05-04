@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jibbles Ice Cream</title>
+  <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD' crossorigin='anonymous'>
+  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/7.2.96/css/materialdesignicons.min.css">
+</head>
+
+
+
+<body>
+
+  <header class="container-fluid">
+    <section class="row">
+      <div class="col-12">
+        <h1>Jibble's Ice cream<i class="mdi mdi-ice-cream"></i></h1>
+      </div>
+    </section>
+  </header>
+
+<!-- NOTE MAIN SECTION -->
+  <main class="container-fluid">
+    <div class="row">
+      <div class="col-6">
+        <section class="row justify-content-around">
+<!-- NOTE MENU ITEMS START -->
+          <div class="col-md-6 pics menu m-2">
+            <div onclick="buyStrawberry()">
+              <img class="img-fluid p-2"
+              src="https://images.unsplash.com/photo-1587393855524-087f83d95bc9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c3RyYXdiZXJyeXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60" alt="">
+              <p>Strawberry Supreme</p>
+              <p>Price: $6</p>
+            </div>
+          </div>
+<!-- NOTE MENU PIC 2 -->
+          <div class="col-md-6 pics menu m-2">
+            <div onclick="buyCaramel()">
+              <img class="img-fluid p-2" src="https://images.unsplash.com/photo-1623595119708-26b1f7300075?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGNhcmFtZWx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="">
+              <p>Caramel Madness</p>
+              <p>Price: $7</p>
+            </div>
+          </div>
+<!-- NOTE MENU PIC 3 -->
+          <div class="col-md-6 pics menu m-2">
+            <div onclick="buyConfetti ()">
+              <img class="img-fluid p-2" src="https://images.unsplash.com/photo-1526653054275-5a4f37ea1c64?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29uZmV0dGklMjBpY2VjcmVhbXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+              <p>Confetti Confessions</p>
+              <p>Price: $6</p>
+            </div>
+          </div>
+<!-- NOTE MENU PIC 4 -->
+          <div class="col-md-6 pics menu m-2">
+            <div onclick="buyVanilla ()">
+              <img class="img-fluid p-2" src="https://images.unsplash.com/photo-1570197788417-0e82375c9371?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dmFuaWxsYSUyMGJlYW58ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60" alt="">
+              <p>Vanilla Boring Bean</p>
+              <p>Price: $5</p>
+            </div>
+          </div>
+<!-- NOTE MENU PIC 5 -->
+          <div class="col-md-6 pics menu m-2">
+            <div onclick="buyChocolate ()">
+              <img class="img-fluid p-2" src="https://images.unsplash.com/photo-1582570675095-9b679953577e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGNob2NvbGF0ZSUyMGZvdW50YWlufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60" alt="">
+              <p>Chocolate Cheers</p>
+              <p>Price: $5</p>
+            </div>
+          </div>
+<!-- NOTE MENU PIC 6 -->
+          <div class="col-md-6 pics menu m-2">
+            <div onclick="buyRainbows ()">
+              <img class="img-fluid p-2" src="https://images.unsplash.com/photo-1558470598-a5dda9640f68?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cmFpbmJvd3N8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60" alt="">
+              <p>Radiating Rainbows</p>
+              <p>Price: $6</p>
+            </div>
+          </div>
+<!-- NOTE MENU PIC 7 -->
+          <div class="col-md-6 pics menu m-2">
+            <div onclick="buyCherry ()">
+              <img class="img-fluid p-2" src="https://images.unsplash.com/photo-1528821099448-43ccebfbb899?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGNoZXJyaWVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
+              <p>Cherry Garcia</p>
+              <p>Price: $7</p>
+            </div>
+          </div>
+<!-- NOTE MENU PIC 8 -->
+          <div class="col-md-6 pics menu m-2">
+            <div onclick="buyCookie ()">
+              <img class="img-fluid p-2" src="https://images.unsplash.com/photo-1611945008429-3340e8c572f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y29va2llJTIwZG91Z2h8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60" alt="">
+              <p>Cookie Wooks</p>
+              <p>Price: $8</p>
+            </div>
+          </div>
+<!-- NOTE MENU PIC 9 -->
+          <div class="col-md-6 pics menu m-2">
+            <div onclick="buyCotton ()">
+              <img class="img-fluid p-2" src="https://images.unsplash.com/photo-1516642898673-edd1ced08e87?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y290dG9uJTIwY2FuZHl8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60" alt="">
+              <p>Cotton Creations</p>
+              <p>Price: $8</p>
+            </div>
+          </div>
+        </div>
+        </section>
+     
+
+        <div class="col-6">
+          <div class="border border-white card d-flex flex-column justify-content-between pb-2">
+            <div class="pt-2" id="cart">
+            </div>
+            <div class="text-end pe-2">
+              <p>TOTAL: $<span id="total">0</span></p>
+              <button class="btn btn-success" onclick="checkout()">Checkout</button>
+          </div>
+        </div>
+      </div>
+      </div>
+  </main>
+
+
+
+  <footer class="container-fluid">
+    <section class="row">
+
+    </section>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+</html>
